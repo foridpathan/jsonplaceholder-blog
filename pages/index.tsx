@@ -64,7 +64,9 @@ export default function Home() {
                   <>
                     <div className="tm-post-link-inner">
                       <img
-                        src="/assets/img/img.jpg"
+                        src={`https://dummyimage.com/600x300/${Math.floor(
+                          Math.random() * 16777215
+                        ).toString(16)}/fff`}
                         alt="Image"
                         className="img-fluid"
                       />
